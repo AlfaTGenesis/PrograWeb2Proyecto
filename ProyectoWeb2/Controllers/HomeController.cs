@@ -15,6 +15,7 @@ namespace ProyectoWeb2.Controllers
 
         public IActionResult Index()
         {
+            // This will be the main landing page of your application
             return View();
         }
 

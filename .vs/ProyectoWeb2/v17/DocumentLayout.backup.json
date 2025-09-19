@@ -1,12 +1,209 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Stuff\\Escuela\\9n0\\PW2\\ProyectoWeb2\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Net\\PrograWeb2Proyecto\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B538253F-004E-4B3A-B166-4F53981AAF4C}|ProyectoWeb2\\ProyectoWeb2.csproj|c:\\net\\prograweb2proyecto\\proyectoweb2\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B538253F-004E-4B3A-B166-4F53981AAF4C}|ProyectoWeb2\\ProyectoWeb2.csproj|solutionrelative:proyectoweb2\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B538253F-004E-4B3A-B166-4F53981AAF4C}|ProyectoWeb2\\ProyectoWeb2.csproj|c:\\net\\prograweb2proyecto\\proyectoweb2\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B538253F-004E-4B3A-B166-4F53981AAF4C}|ProyectoWeb2\\ProyectoWeb2.csproj|solutionrelative:proyectoweb2\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B538253F-004E-4B3A-B166-4F53981AAF4C}|ProyectoWeb2\\ProyectoWeb2.csproj|c:\\net\\prograweb2proyecto\\proyectoweb2\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B538253F-004E-4B3A-B166-4F53981AAF4C}|ProyectoWeb2\\ProyectoWeb2.csproj|solutionrelative:proyectoweb2\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B538253F-004E-4B3A-B166-4F53981AAF4C}|ProyectoWeb2\\ProyectoWeb2.csproj|c:\\net\\prograweb2proyecto\\proyectoweb2\\models\\touristattraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B538253F-004E-4B3A-B166-4F53981AAF4C}|ProyectoWeb2\\ProyectoWeb2.csproj|solutionrelative:proyectoweb2\\models\\touristattraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B538253F-004E-4B3A-B166-4F53981AAF4C}|ProyectoWeb2\\ProyectoWeb2.csproj|c:\\net\\prograweb2proyecto\\proyectoweb2\\models\\hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B538253F-004E-4B3A-B166-4F53981AAF4C}|ProyectoWeb2\\ProyectoWeb2.csproj|solutionrelative:proyectoweb2\\models\\hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B538253F-004E-4B3A-B166-4F53981AAF4C}|ProyectoWeb2\\ProyectoWeb2.csproj|c:\\net\\prograweb2proyecto\\proyectoweb2\\controllers\\stadiumscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B538253F-004E-4B3A-B166-4F53981AAF4C}|ProyectoWeb2\\ProyectoWeb2.csproj|solutionrelative:proyectoweb2\\controllers\\stadiumscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B538253F-004E-4B3A-B166-4F53981AAF4C}|ProyectoWeb2\\ProyectoWeb2.csproj|c:\\net\\prograweb2proyecto\\proyectoweb2\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B538253F-004E-4B3A-B166-4F53981AAF4C}|ProyectoWeb2\\ProyectoWeb2.csproj|solutionrelative:proyectoweb2\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B538253F-004E-4B3A-B166-4F53981AAF4C}|ProyectoWeb2\\ProyectoWeb2.csproj|c:\\net\\prograweb2proyecto\\proyectoweb2\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B538253F-004E-4B3A-B166-4F53981AAF4C}|ProyectoWeb2\\ProyectoWeb2.csproj|solutionrelative:proyectoweb2\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B538253F-004E-4B3A-B166-4F53981AAF4C}|ProyectoWeb2\\ProyectoWeb2.csproj|c:\\net\\prograweb2proyecto\\proyectoweb2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B538253F-004E-4B3A-B166-4F53981AAF4C}|ProyectoWeb2\\ProyectoWeb2.csproj|solutionrelative:proyectoweb2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B538253F-004E-4B3A-B166-4F53981AAF4C}|ProyectoWeb2\\ProyectoWeb2.csproj|c:\\net\\prograweb2proyecto\\proyectoweb2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B538253F-004E-4B3A-B166-4F53981AAF4C}|ProyectoWeb2\\ProyectoWeb2.csproj|solutionrelative:proyectoweb2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B538253F-004E-4B3A-B166-4F53981AAF4C}|ProyectoWeb2\\ProyectoWeb2.csproj|c:\\net\\prograweb2proyecto\\proyectoweb2\\models\\estadio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B538253F-004E-4B3A-B166-4F53981AAF4C}|ProyectoWeb2\\ProyectoWeb2.csproj|solutionrelative:proyectoweb2\\models\\estadio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StadiumsController.cs",
+              "DocumentMoniker": "C:\\Net\\PrograWeb2Proyecto\\ProyectoWeb2\\Controllers\\StadiumsController.cs",
+              "RelativeDocumentMoniker": "ProyectoWeb2\\Controllers\\StadiumsController.cs",
+              "ToolTip": "C:\\Net\\PrograWeb2Proyecto\\ProyectoWeb2\\Controllers\\StadiumsController.cs",
+              "RelativeToolTip": "ProyectoWeb2\\Controllers\\StadiumsController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwAsAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T22:07:13.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Net\\PrograWeb2Proyecto\\ProyectoWeb2\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "ProyectoWeb2\\appsettings.Development.json",
+              "ToolTip": "C:\\Net\\PrograWeb2Proyecto\\ProyectoWeb2\\appsettings.Development.json",
+              "RelativeToolTip": "ProyectoWeb2\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-19T20:40:24.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Net\\PrograWeb2Proyecto\\ProyectoWeb2\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ProyectoWeb2\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Net\\PrograWeb2Proyecto\\ProyectoWeb2\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ProyectoWeb2\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T20:37:29.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Net\\PrograWeb2Proyecto\\ProyectoWeb2\\Models\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "ProyectoWeb2\\Models\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Net\\PrograWeb2Proyecto\\ProyectoWeb2\\Models\\ApplicationDbContext.cs",
+              "RelativeToolTip": "ProyectoWeb2\\Models\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAkwAoAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T20:35:07.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Review.cs",
+              "DocumentMoniker": "C:\\Net\\PrograWeb2Proyecto\\ProyectoWeb2\\Models\\Review.cs",
+              "RelativeDocumentMoniker": "ProyectoWeb2\\Models\\Review.cs",
+              "ToolTip": "C:\\Net\\PrograWeb2Proyecto\\ProyectoWeb2\\Models\\Review.cs",
+              "RelativeToolTip": "ProyectoWeb2\\Models\\Review.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T20:34:25.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Booking.cs",
+              "DocumentMoniker": "C:\\Net\\PrograWeb2Proyecto\\ProyectoWeb2\\Models\\Booking.cs",
+              "RelativeDocumentMoniker": "ProyectoWeb2\\Models\\Booking.cs",
+              "ToolTip": "C:\\Net\\PrograWeb2Proyecto\\ProyectoWeb2\\Models\\Booking.cs",
+              "RelativeToolTip": "ProyectoWeb2\\Models\\Booking.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwBoAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T20:33:46.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Net\\PrograWeb2Proyecto\\ProyectoWeb2\\Models\\User.cs",
+              "RelativeDocumentMoniker": "ProyectoWeb2\\Models\\User.cs",
+              "ToolTip": "C:\\Net\\PrograWeb2Proyecto\\ProyectoWeb2\\Models\\User.cs",
+              "RelativeToolTip": "ProyectoWeb2\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T20:33:16.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TouristAttraction.cs",
+              "DocumentMoniker": "C:\\Net\\PrograWeb2Proyecto\\ProyectoWeb2\\Models\\TouristAttraction.cs",
+              "RelativeDocumentMoniker": "ProyectoWeb2\\Models\\TouristAttraction.cs",
+              "ToolTip": "C:\\Net\\PrograWeb2Proyecto\\ProyectoWeb2\\Models\\TouristAttraction.cs",
+              "RelativeToolTip": "ProyectoWeb2\\Models\\TouristAttraction.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T20:32:38.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Hotel.cs",
+              "DocumentMoniker": "C:\\Net\\PrograWeb2Proyecto\\ProyectoWeb2\\Models\\Hotel.cs",
+              "RelativeDocumentMoniker": "ProyectoWeb2\\Models\\Hotel.cs",
+              "ToolTip": "C:\\Net\\PrograWeb2Proyecto\\ProyectoWeb2\\Models\\Hotel.cs",
+              "RelativeToolTip": "ProyectoWeb2\\Models\\Hotel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T20:31:53.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Estadio.cs",
+              "DocumentMoniker": "C:\\Net\\PrograWeb2Proyecto\\ProyectoWeb2\\Models\\Estadio.cs",
+              "RelativeDocumentMoniker": "ProyectoWeb2\\Models\\Estadio.cs",
+              "ToolTip": "C:\\Net\\PrograWeb2Proyecto\\ProyectoWeb2\\Models\\Estadio.cs",
+              "RelativeToolTip": "ProyectoWeb2\\Models\\Estadio.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAzwBQAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T20:30:42.684Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Net\\PrograWeb2Proyecto\\ProyectoWeb2\\Program.cs",
+              "RelativeDocumentMoniker": "ProyectoWeb2\\Program.cs",
+              "ToolTip": "C:\\Net\\PrograWeb2Proyecto\\ProyectoWeb2\\Program.cs",
+              "RelativeToolTip": "ProyectoWeb2\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T06:43:24.073Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

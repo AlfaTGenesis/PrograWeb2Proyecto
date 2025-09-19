@@ -1,0 +1,41 @@
+version: '3.8'
+
+services:
+  # Servicio de la Base de Datos MySQL
+  db:
+    image: mysql:8.0
+    container_name: WorldCupGuide_MySQL_DB
+    restart: always
+    environment:
+      # La contraseña se toma del archivo .env para no guardarla en el código.
+      MYSQL_ROOT_PASSWORD: ${DB_PASSWORD}
+    ports:
+      # Mapea el puerto del contenedor al puerto de tu máquina.
+      - "3306:3306"
+    volumes:
+      # Esta línea es CLAVE: hace que los datos de la base de datos sean persistentes.
+      # Los datos se guardarán en un volumen llamado 'db-data' en tu máquina.
+      - db-data:/var/lib/mysql
+
+  # Servicio de la Aplicación .NET
+  app:
+    container_name: WorldCupGuide_App
+    # Construye la imagen usando el Dockerfile en el directorio actual ('.').
+    build: .
+    restart: always
+    ports:
+      # Mapea el puerto 8080 de la app a un puerto en tu máquina (ej. 8000).
+      - "8000:8080"
+    environment:
+      # Pasamos la cadena de conexión a la aplicación como una variable de entorno.
+      # 'db' es el nombre del servicio de MySQL, Docker Compose lo resolverá internamente.
+      ConnectionStrings__DefaultConnection: "server=db;port=3306;database=worldcupguide_db;user=root;password=${DB_PASSWORD}"
+      # Aseguramos que la app espere a que la base de datos esté lista.
+      ASPNETCORE_URLS: "http://+:8080"
+    depends_on:
+      # Le dice a Docker que inicie el servicio 'db' antes de iniciar el servicio 'app'.
+      - db
+
+# Definición del volumen para la persistencia de datos de MySQL.
+volumes:
+  db-data:
