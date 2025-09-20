@@ -1,7 +1,7 @@
 version: '3.8'
 
 services:
-  # Servicio de la Aplicación .NET
+
   app:
     build:
       context: .
@@ -11,29 +11,28 @@ services:
     ports:
       - "8000:8080"
     environment:
-      # Variables de Entorno para la Base de Datos
+
       - ConnectionStrings__DefaultConnection=Server=db;Port=3306;Database=${DB_DATABASE};User=root;Password=${DB_ROOT_PASSWORD}
       
-      # Variables de Entorno para la configuración de JWT (¡ESTO ES LO NUEVO!)
+
       - Jwt__Issuer=${JWT_ISSUER}
       - Jwt__Audience=${JWT_AUDIENCE}
       - Jwt__SecretKey=${JWT_SECRETKEY}
 
-      # Variable para que el servidor Kestrel escuche en el puerto correcto dentro del contenedor
+
       - ASPNETCORE_URLS=http://+:8080
     depends_on:
       - db
     volumes:
       - ./ProyectoWeb2/wwwroot:/app/wwwroot
 
-  # Servicio de la Base de Datos MySQL
   db:
     image: mysql:8.0
     container_name: WorldCupGuide_MySQL_DB
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: ${DB_ROOT_PASSWORD}
-      MYSQL_DATABASE: ${DB_DATABASE} # Añadido para que la BD se cree automáticamente
+      MYSQL_DATABASE: ${DB_DATABASE} 
     ports:
       - "3306:3306"
     volumes:
