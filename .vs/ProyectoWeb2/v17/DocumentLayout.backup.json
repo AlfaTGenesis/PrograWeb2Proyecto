@@ -3,12 +3,32 @@
   "WorkspaceRootPath": "C:\\Stuff\\Escuela\\9n0\\PW2\\ProyectoWeb2\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B538253F-004E-4B3A-B166-4F53981AAF4C}|ProyectoWeb2\\ProyectoWeb2.csproj|c:\\stuff\\escuela\\9n0\\pw2\\proyectoweb2\\proyectoweb2\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B538253F-004E-4B3A-B166-4F53981AAF4C}|ProyectoWeb2\\ProyectoWeb2.csproj|solutionrelative:proyectoweb2\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B538253F-004E-4B3A-B166-4F53981AAF4C}|ProyectoWeb2\\ProyectoWeb2.csproj|c:\\stuff\\escuela\\9n0\\pw2\\proyectoweb2\\proyectoweb2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B538253F-004E-4B3A-B166-4F53981AAF4C}|ProyectoWeb2\\ProyectoWeb2.csproj|solutionrelative:proyectoweb2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{B538253F-004E-4B3A-B166-4F53981AAF4C}|ProyectoWeb2\\ProyectoWeb2.csproj|c:\\stuff\\escuela\\9n0\\pw2\\proyectoweb2\\proyectoweb2\\models\\hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B538253F-004E-4B3A-B166-4F53981AAF4C}|ProyectoWeb2\\ProyectoWeb2.csproj|solutionrelative:proyectoweb2\\models\\hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B538253F-004E-4B3A-B166-4F53981AAF4C}|ProyectoWeb2\\ProyectoWeb2.csproj|c:\\stuff\\escuela\\9n0\\pw2\\proyectoweb2\\proyectoweb2\\models\\stadium.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B538253F-004E-4B3A-B166-4F53981AAF4C}|ProyectoWeb2\\ProyectoWeb2.csproj|solutionrelative:proyectoweb2\\models\\stadium.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B538253F-004E-4B3A-B166-4F53981AAF4C}|ProyectoWeb2\\ProyectoWeb2.csproj|c:\\stuff\\escuela\\9n0\\pw2\\proyectoweb2\\proyectoweb2\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B538253F-004E-4B3A-B166-4F53981AAF4C}|ProyectoWeb2\\ProyectoWeb2.csproj|solutionrelative:proyectoweb2\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B538253F-004E-4B3A-B166-4F53981AAF4C}|ProyectoWeb2\\ProyectoWeb2.csproj|c:\\stuff\\escuela\\9n0\\pw2\\proyectoweb2\\proyectoweb2\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B538253F-004E-4B3A-B166-4F53981AAF4C}|ProyectoWeb2\\ProyectoWeb2.csproj|solutionrelative:proyectoweb2\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B538253F-004E-4B3A-B166-4F53981AAF4C}|ProyectoWeb2\\ProyectoWeb2.csproj|c:\\stuff\\escuela\\9n0\\pw2\\proyectoweb2\\proyectoweb2\\controllers\\stadiumscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B538253F-004E-4B3A-B166-4F53981AAF4C}|ProyectoWeb2\\ProyectoWeb2.csproj|solutionrelative:proyectoweb2\\controllers\\stadiumscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B538253F-004E-4B3A-B166-4F53981AAF4C}|ProyectoWeb2\\ProyectoWeb2.csproj|c:\\stuff\\escuela\\9n0\\pw2\\proyectoweb2\\proyectoweb2\\controllers\\attractionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,10 +47,6 @@
       "RelativeMoniker": "D:0:0:{B538253F-004E-4B3A-B166-4F53981AAF4C}|ProyectoWeb2\\ProyectoWeb2.csproj|solutionrelative:proyectoweb2\\controllers\\reviewscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B538253F-004E-4B3A-B166-4F53981AAF4C}|ProyectoWeb2\\ProyectoWeb2.csproj|c:\\stuff\\escuela\\9n0\\pw2\\proyectoweb2\\proyectoweb2\\controllers\\stadiumscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B538253F-004E-4B3A-B166-4F53981AAF4C}|ProyectoWeb2\\ProyectoWeb2.csproj|solutionrelative:proyectoweb2\\controllers\\stadiumscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B538253F-004E-4B3A-B166-4F53981AAF4C}|ProyectoWeb2\\ProyectoWeb2.csproj|c:\\stuff\\escuela\\9n0\\pw2\\proyectoweb2\\proyectoweb2\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B538253F-004E-4B3A-B166-4F53981AAF4C}|ProyectoWeb2\\ProyectoWeb2.csproj|solutionrelative:proyectoweb2\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -41,10 +57,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B538253F-004E-4B3A-B166-4F53981AAF4C}|ProyectoWeb2\\ProyectoWeb2.csproj|c:\\stuff\\escuela\\9n0\\pw2\\proyectoweb2\\proyectoweb2\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B538253F-004E-4B3A-B166-4F53981AAF4C}|ProyectoWeb2\\ProyectoWeb2.csproj|solutionrelative:proyectoweb2\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B538253F-004E-4B3A-B166-4F53981AAF4C}|ProyectoWeb2\\ProyectoWeb2.csproj|c:\\stuff\\escuela\\9n0\\pw2\\proyectoweb2\\proyectoweb2\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{B538253F-004E-4B3A-B166-4F53981AAF4C}|ProyectoWeb2\\ProyectoWeb2.csproj|solutionrelative:proyectoweb2\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B538253F-004E-4B3A-B166-4F53981AAF4C}|ProyectoWeb2\\ProyectoWeb2.csproj|c:\\stuff\\escuela\\9n0\\pw2\\proyectoweb2\\proyectoweb2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -63,10 +75,6 @@
       "RelativeMoniker": "D:0:0:{B538253F-004E-4B3A-B166-4F53981AAF4C}|ProyectoWeb2\\ProyectoWeb2.csproj|solutionrelative:proyectoweb2\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B538253F-004E-4B3A-B166-4F53981AAF4C}|ProyectoWeb2\\ProyectoWeb2.csproj|c:\\stuff\\escuela\\9n0\\pw2\\proyectoweb2\\proyectoweb2\\models\\hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B538253F-004E-4B3A-B166-4F53981AAF4C}|ProyectoWeb2\\ProyectoWeb2.csproj|solutionrelative:proyectoweb2\\models\\hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B538253F-004E-4B3A-B166-4F53981AAF4C}|ProyectoWeb2\\ProyectoWeb2.csproj|c:\\stuff\\escuela\\9n0\\pw2\\proyectoweb2\\proyectoweb2\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B538253F-004E-4B3A-B166-4F53981AAF4C}|ProyectoWeb2\\ProyectoWeb2.csproj|solutionrelative:proyectoweb2\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -77,10 +85,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B538253F-004E-4B3A-B166-4F53981AAF4C}|ProyectoWeb2\\ProyectoWeb2.csproj|c:\\stuff\\escuela\\9n0\\pw2\\proyectoweb2\\proyectoweb2\\models\\touristattraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B538253F-004E-4B3A-B166-4F53981AAF4C}|ProyectoWeb2\\ProyectoWeb2.csproj|solutionrelative:proyectoweb2\\models\\touristattraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B538253F-004E-4B3A-B166-4F53981AAF4C}|ProyectoWeb2\\ProyectoWeb2.csproj|c:\\stuff\\escuela\\9n0\\pw2\\proyectoweb2\\proyectoweb2\\models\\estadio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B538253F-004E-4B3A-B166-4F53981AAF4C}|ProyectoWeb2\\ProyectoWeb2.csproj|solutionrelative:proyectoweb2\\models\\estadio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -90,50 +94,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ReviewsController.cs",
-              "DocumentMoniker": "C:\\Stuff\\Escuela\\9n0\\PW2\\ProyectoWeb2\\ProyectoWeb2\\Controllers\\ReviewsController.cs",
-              "RelativeDocumentMoniker": "ProyectoWeb2\\Controllers\\ReviewsController.cs",
-              "ToolTip": "C:\\Stuff\\Escuela\\9n0\\PW2\\ProyectoWeb2\\ProyectoWeb2\\Controllers\\ReviewsController.cs",
-              "RelativeToolTip": "ProyectoWeb2\\Controllers\\ReviewsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T22:38:13.814Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "HotelsController.cs",
-              "DocumentMoniker": "C:\\Stuff\\Escuela\\9n0\\PW2\\ProyectoWeb2\\ProyectoWeb2\\Controllers\\HotelsController.cs",
-              "RelativeDocumentMoniker": "ProyectoWeb2\\Controllers\\HotelsController.cs",
-              "ToolTip": "C:\\Stuff\\Escuela\\9n0\\PW2\\ProyectoWeb2\\ProyectoWeb2\\Controllers\\HotelsController.cs",
-              "RelativeToolTip": "ProyectoWeb2\\Controllers\\HotelsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T22:36:17.958Z",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Stuff\\Escuela\\9n0\\PW2\\ProyectoWeb2\\ProyectoWeb2\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ProyectoWeb2\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Stuff\\Escuela\\9n0\\PW2\\ProyectoWeb2\\ProyectoWeb2\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ProyectoWeb2\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-20T05:04:33.998Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BookingsController.cs",
-              "DocumentMoniker": "C:\\Stuff\\Escuela\\9n0\\PW2\\ProyectoWeb2\\ProyectoWeb2\\Controllers\\BookingsController.cs",
-              "RelativeDocumentMoniker": "ProyectoWeb2\\Controllers\\BookingsController.cs",
-              "ToolTip": "C:\\Stuff\\Escuela\\9n0\\PW2\\ProyectoWeb2\\ProyectoWeb2\\Controllers\\BookingsController.cs",
-              "RelativeToolTip": "ProyectoWeb2\\Controllers\\BookingsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T22:38:39.668Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "AttractionsController.cs",
               "DocumentMoniker": "C:\\Stuff\\Escuela\\9n0\\PW2\\ProyectoWeb2\\ProyectoWeb2\\Controllers\\AttractionsController.cs",
               "RelativeDocumentMoniker": "ProyectoWeb2\\Controllers\\AttractionsController.cs",
@@ -146,28 +124,106 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Stuff\\Escuela\\9n0\\PW2\\ProyectoWeb2\\ProyectoWeb2\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "ProyectoWeb2\\Controllers\\AuthController.cs",
               "ToolTip": "C:\\Stuff\\Escuela\\9n0\\PW2\\ProyectoWeb2\\ProyectoWeb2\\Controllers\\AuthController.cs",
               "RelativeToolTip": "ProyectoWeb2\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAxwE4AAABPAAAAAAAAAA==",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAkwE4AAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-20T03:59:57.77Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Stuff\\Escuela\\9n0\\PW2\\ProyectoWeb2\\ProyectoWeb2\\Program.cs",
               "RelativeDocumentMoniker": "ProyectoWeb2\\Program.cs",
               "ToolTip": "C:\\Stuff\\Escuela\\9n0\\PW2\\ProyectoWeb2\\ProyectoWeb2\\Program.cs",
               "RelativeToolTip": "ProyectoWeb2\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-19T06:43:24.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Hotel.cs",
+              "DocumentMoniker": "C:\\Stuff\\Escuela\\9n0\\PW2\\ProyectoWeb2\\ProyectoWeb2\\Models\\Hotel.cs",
+              "RelativeDocumentMoniker": "ProyectoWeb2\\Models\\Hotel.cs",
+              "ToolTip": "C:\\Stuff\\Escuela\\9n0\\PW2\\ProyectoWeb2\\ProyectoWeb2\\Models\\Hotel.cs",
+              "RelativeToolTip": "ProyectoWeb2\\Models\\Hotel.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T20:31:53.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Stadium.cs",
+              "DocumentMoniker": "C:\\Stuff\\Escuela\\9n0\\PW2\\ProyectoWeb2\\ProyectoWeb2\\Models\\Stadium.cs",
+              "RelativeDocumentMoniker": "ProyectoWeb2\\Models\\Stadium.cs",
+              "ToolTip": "C:\\Stuff\\Escuela\\9n0\\PW2\\ProyectoWeb2\\ProyectoWeb2\\Models\\Stadium.cs",
+              "RelativeToolTip": "ProyectoWeb2\\Models\\Stadium.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T20:30:42.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HotelsController.cs",
+              "DocumentMoniker": "C:\\Stuff\\Escuela\\9n0\\PW2\\ProyectoWeb2\\ProyectoWeb2\\Controllers\\HotelsController.cs",
+              "RelativeDocumentMoniker": "ProyectoWeb2\\Controllers\\HotelsController.cs",
+              "ToolTip": "C:\\Stuff\\Escuela\\9n0\\PW2\\ProyectoWeb2\\ProyectoWeb2\\Controllers\\HotelsController.cs",
+              "RelativeToolTip": "ProyectoWeb2\\Controllers\\HotelsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T22:36:17.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Stuff\\Escuela\\9n0\\PW2\\ProyectoWeb2\\ProyectoWeb2\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "ProyectoWeb2\\appsettings.Development.json",
+              "ToolTip": "C:\\Stuff\\Escuela\\9n0\\PW2\\ProyectoWeb2\\ProyectoWeb2\\appsettings.Development.json",
+              "RelativeToolTip": "ProyectoWeb2\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-19T20:40:24.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BookingsController.cs",
+              "DocumentMoniker": "C:\\Stuff\\Escuela\\9n0\\PW2\\ProyectoWeb2\\ProyectoWeb2\\Controllers\\BookingsController.cs",
+              "RelativeDocumentMoniker": "ProyectoWeb2\\Controllers\\BookingsController.cs",
+              "ToolTip": "C:\\Stuff\\Escuela\\9n0\\PW2\\ProyectoWeb2\\ProyectoWeb2\\Controllers\\BookingsController.cs",
+              "RelativeToolTip": "ProyectoWeb2\\Controllers\\BookingsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T22:38:39.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ReviewsController.cs",
+              "DocumentMoniker": "C:\\Stuff\\Escuela\\9n0\\PW2\\ProyectoWeb2\\ProyectoWeb2\\Controllers\\ReviewsController.cs",
+              "RelativeDocumentMoniker": "ProyectoWeb2\\Controllers\\ReviewsController.cs",
+              "ToolTip": "C:\\Stuff\\Escuela\\9n0\\PW2\\ProyectoWeb2\\ProyectoWeb2\\Controllers\\ReviewsController.cs",
+              "RelativeToolTip": "ProyectoWeb2\\Controllers\\ReviewsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T22:38:13.814Z",
               "EditorCaption": ""
             },
             {
@@ -185,7 +241,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "UsersController.cs",
               "DocumentMoniker": "C:\\Stuff\\Escuela\\9n0\\PW2\\ProyectoWeb2\\ProyectoWeb2\\Controllers\\UsersController.cs",
               "RelativeDocumentMoniker": "ProyectoWeb2\\Controllers\\UsersController.cs",
@@ -198,7 +254,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "LoginDto.cs",
               "DocumentMoniker": "C:\\Stuff\\Escuela\\9n0\\PW2\\ProyectoWeb2\\ProyectoWeb2\\Dtos\\LoginDto.cs",
               "RelativeDocumentMoniker": "ProyectoWeb2\\Dtos\\LoginDto.cs",
@@ -211,7 +267,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "RegisterDto.cs",
               "DocumentMoniker": "C:\\Stuff\\Escuela\\9n0\\PW2\\ProyectoWeb2\\ProyectoWeb2\\Dtos\\RegisterDto.cs",
               "RelativeDocumentMoniker": "ProyectoWeb2\\Dtos\\RegisterDto.cs",
@@ -224,7 +280,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Stuff\\Escuela\\9n0\\PW2\\ProyectoWeb2\\ProyectoWeb2\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "ProyectoWeb2\\Controllers\\HomeController.cs",
@@ -237,20 +293,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Stuff\\Escuela\\9n0\\PW2\\ProyectoWeb2\\ProyectoWeb2\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "ProyectoWeb2\\appsettings.Development.json",
-              "ToolTip": "C:\\Stuff\\Escuela\\9n0\\PW2\\ProyectoWeb2\\ProyectoWeb2\\appsettings.Development.json*",
-              "RelativeToolTip": "ProyectoWeb2\\appsettings.Development.json*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-09-19T20:40:24.825Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Stuff\\Escuela\\9n0\\PW2\\ProyectoWeb2\\ProyectoWeb2\\Models\\User.cs",
               "RelativeDocumentMoniker": "ProyectoWeb2\\Models\\User.cs",
@@ -263,7 +306,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "ApplicationDbContextModelSnapshot.cs",
               "DocumentMoniker": "C:\\Stuff\\Escuela\\9n0\\PW2\\ProyectoWeb2\\ProyectoWeb2\\Migrations\\ApplicationDbContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "ProyectoWeb2\\Migrations\\ApplicationDbContextModelSnapshot.cs",
@@ -276,7 +319,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Stuff\\Escuela\\9n0\\PW2\\ProyectoWeb2\\ProyectoWeb2\\Models\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "ProyectoWeb2\\Models\\ApplicationDbContext.cs",
@@ -289,7 +332,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "Review.cs",
               "DocumentMoniker": "C:\\Stuff\\Escuela\\9n0\\PW2\\ProyectoWeb2\\ProyectoWeb2\\Models\\Review.cs",
               "RelativeDocumentMoniker": "ProyectoWeb2\\Models\\Review.cs",
@@ -302,7 +345,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "Booking.cs",
               "DocumentMoniker": "C:\\Stuff\\Escuela\\9n0\\PW2\\ProyectoWeb2\\ProyectoWeb2\\Models\\Booking.cs",
               "RelativeDocumentMoniker": "ProyectoWeb2\\Models\\Booking.cs",
@@ -315,7 +358,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "TouristAttraction.cs",
               "DocumentMoniker": "C:\\Stuff\\Escuela\\9n0\\PW2\\ProyectoWeb2\\ProyectoWeb2\\Models\\TouristAttraction.cs",
               "RelativeDocumentMoniker": "ProyectoWeb2\\Models\\TouristAttraction.cs",
@@ -324,32 +367,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAIBJwBUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-19T20:32:38.257Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Hotel.cs",
-              "DocumentMoniker": "C:\\Stuff\\Escuela\\9n0\\PW2\\ProyectoWeb2\\ProyectoWeb2\\Models\\Hotel.cs",
-              "RelativeDocumentMoniker": "ProyectoWeb2\\Models\\Hotel.cs",
-              "ToolTip": "C:\\Stuff\\Escuela\\9n0\\PW2\\ProyectoWeb2\\ProyectoWeb2\\Models\\Hotel.cs",
-              "RelativeToolTip": "ProyectoWeb2\\Models\\Hotel.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAgAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T20:31:53.11Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Estadio.cs",
-              "DocumentMoniker": "C:\\Stuff\\Escuela\\9n0\\PW2\\ProyectoWeb2\\ProyectoWeb2\\Models\\Estadio.cs",
-              "RelativeDocumentMoniker": "ProyectoWeb2\\Models\\Estadio.cs",
-              "ToolTip": "C:\\Stuff\\Escuela\\9n0\\PW2\\ProyectoWeb2\\ProyectoWeb2\\Models\\Estadio.cs",
-              "RelativeToolTip": "ProyectoWeb2\\Models\\Estadio.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBQAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T20:30:42.684Z",
               "EditorCaption": ""
             }
           ]

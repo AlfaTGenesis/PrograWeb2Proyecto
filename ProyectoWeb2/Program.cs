@@ -45,7 +45,7 @@ builder.Services.AddSwaggerGen(c =>
 {
     c.SwaggerDoc("v1", new OpenApiInfo { Title = "WorldCupGuide API", Version = "v1" });
 
-    // Esto añade el candado de "Authorize" a la UI de Swagger.
+
     c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
     {
         Description = "Autorización JWT usando el esquema Bearer. Ejemplo: \"Bearer {token}\"",
@@ -55,7 +55,6 @@ builder.Services.AddSwaggerGen(c =>
         Scheme = "Bearer"
     });
 
-    // Esto le dice a Swagger que debe enviar el token en las peticiones a endpoints protegidos.
     c.AddSecurityRequirement(new OpenApiSecurityRequirement()
     {
         {

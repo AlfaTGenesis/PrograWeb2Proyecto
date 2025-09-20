@@ -8,10 +8,8 @@ namespace ProyectoWeb2.Models
         [Key]
         public int BookingId { get; set; }
 
-        // Foreign Key to User
         public int UserId { get; set; }
 
-        // Foreign Key to Hotel
         public int HotelId { get; set; }
 
         [Required]

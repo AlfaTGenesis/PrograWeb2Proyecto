@@ -17,6 +17,6 @@ namespace ProyectoWeb2.Models
         public string Email { get; set; }
 
         [Required]
-        public string PasswordHash { get; set; } // Store a hashed password, not plain text!
+        public string PasswordHash { get; set; } 
     }
 }
