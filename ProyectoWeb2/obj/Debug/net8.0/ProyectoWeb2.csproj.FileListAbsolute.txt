@@ -299,3 +299,4 @@ C:\Net\PrograWeb2Proyecto\ProyectoWeb2\bin\Debug\net8.0\Swashbuckle.AspNetCore.S
 C:\Net\PrograWeb2Proyecto\ProyectoWeb2\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Net\PrograWeb2Proyecto\ProyectoWeb2\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
 C:\Net\PrograWeb2Proyecto\ProyectoWeb2\obj\Debug\net8.0\ProyectoWeb2.MvcApplicationPartsAssemblyInfo.cs
+C:\Net\PrograWeb2Proyecto\ProyectoWeb2\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

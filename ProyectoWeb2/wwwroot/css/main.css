@@ -1,0 +1,136 @@
+﻿:root {
+    --color-fondo: #1a1a1a;
+    --color-superficie: #2a2a2a;
+    --color-primario: #007bff;
+    --color-primario-hover: #0056b3;
+    --color-texto-principal: #f0f0f0;
+    --color-texto-secundario: #a0a0a0;
+    --color-borde: #444;
+}
+
+body {
+    background-color: var(--color-fondo);
+    color: var(--color-texto-principal);
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.app-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1.5rem;
+}
+
+
+.navbar {
+    background-color: var(--color-superficie);
+    border-bottom: 1px solid var(--color-borde);
+    padding: 1rem 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--color-texto-principal);
+    text-decoration: none;
+}
+
+    .navbar-brand span {
+        color: var(--color-primario);
+    }
+
+.navbar-links a {
+    color: var(--color-texto-secundario);
+    text-decoration: none;
+    margin-left: 1rem;
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
+
+    .navbar-links a:hover,
+    .navbar-links a.active {
+        color: var(--color-primario);
+    }
+
+
+.btn {
+    padding: 0.6rem 1.2rem;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.2s ease;
+}
+
+.btn-primary {
+    background-color: var(--color-primario);
+    color: white;
+}
+
+    .btn-primary:hover {
+        background-color: var(--color-primario-hover);
+    }
+
+.btn-secondary {
+    background-color: var(--color-superficie);
+    color: var(--color-texto-principal);
+    border: 1px solid var(--color-borde);
+}
+
+    .btn-secondary:hover {
+        background-color: #333;
+    }
+
+
+.form-container {
+    background-color: var(--color-superficie);
+    padding: 2rem;
+    border-radius: 12px;
+    max-width: 450px;
+    margin: 2rem auto;
+    border: 1px solid var(--color-borde);
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+    .form-group label {
+        display: block;
+        margin-bottom: 0.5rem;
+        font-weight: 600;
+        color: var(--color-texto-secundario);
+    }
+
+.form-control {
+    width: 100%;
+    padding: 0.8rem 1rem;
+    background-color: var(--color-fondo);
+    border: 1px solid var(--color-borde);
+    border-radius: 8px;
+    color: var(--color-texto-principal);
+    font-size: 1rem;
+    box-sizing: border-box; 
+}
+
+    .form-control:focus {
+        outline: none;
+        border-color: var(--color-primario);
+        box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.3);
+    }
+
+
+.text-center {
+    text-align: center;
+}
+
+.mt-2 {
+    margin-top: 1rem;
+}

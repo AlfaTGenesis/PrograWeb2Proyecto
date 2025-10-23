@@ -9,7 +9,6 @@ namespace ProyectoWeb2.Controllers
 
     // api/Stadiums
     [Route("api/[controller]")]
-    [Authorize]
     public class StadiumsController : ControllerBase
     {
         private readonly ApplicationDbContext _context;
