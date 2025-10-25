@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "qr5mpGg4bstAIjsGPfjtJLVQZWYuC/3VkhP15uvm2xs=",
+  "Hash": "EzSXL6Sz7CclaW+20cW0H+HbqNoMU5fkYp8dzYVlVGQ=",
   "Source": "ProyectoWeb2",
   "BasePath": "_content/ProyectoWeb2",
   "Mode": "Default",
@@ -225,6 +225,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
+    },
+    {
+      "Identity": "C:\\Net\\PrograWeb2Proyecto\\ProyectoWeb2\\wwwroot\\js\\stadium.js",
+      "SourceId": "ProyectoWeb2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Net\\PrograWeb2Proyecto\\ProyectoWeb2\\wwwroot\\",
+      "BasePath": "_content/ProyectoWeb2",
+      "RelativePath": "js/stadium#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "fcsetpegk7",
+      "Integrity": "AVi9EfIGhSjsy4rpVI1oS3MRNvaHHd/I4bbAmrhAl3k=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\stadium.js"
     },
     {
       "Identity": "C:\\Net\\PrograWeb2Proyecto\\ProyectoWeb2\\wwwroot\\js\\stadiums.js",
@@ -1485,6 +1506,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\register.html"
+    },
+    {
+      "Identity": "C:\\Net\\PrograWeb2Proyecto\\ProyectoWeb2\\wwwroot\\stadium.html",
+      "SourceId": "ProyectoWeb2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Net\\PrograWeb2Proyecto\\ProyectoWeb2\\wwwroot\\",
+      "BasePath": "_content/ProyectoWeb2",
+      "RelativePath": "stadium#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "76kh92pnbt",
+      "Integrity": "oT7IWHENWliCtvQE5BLG5t4DSmFzqLYiEUkl3MfSMwU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\stadium.html"
     }
   ],
   "Endpoints": [
@@ -1757,7 +1799,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 23 Oct 2025 23:17:10 GMT"
+          "Value": "Thu, 23 Oct 2025 23:55:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1802,7 +1844,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 23 Oct 2025 23:17:10 GMT"
+          "Value": "Thu, 23 Oct 2025 23:55:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2141,6 +2183,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo="
+        }
+      ]
+    },
+    {
+      "Route": "js/stadium.fcsetpegk7.js",
+      "AssetFile": "C:\\Net\\PrograWeb2Proyecto\\ProyectoWeb2\\wwwroot\\js\\stadium.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6868"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AVi9EfIGhSjsy4rpVI1oS3MRNvaHHd/I4bbAmrhAl3k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 24 Oct 2025 21:38:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fcsetpegk7"
+        },
+        {
+          "Name": "label",
+          "Value": "js/stadium.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-AVi9EfIGhSjsy4rpVI1oS3MRNvaHHd/I4bbAmrhAl3k="
+        }
+      ]
+    },
+    {
+      "Route": "js/stadium.js",
+      "AssetFile": "C:\\Net\\PrograWeb2Proyecto\\ProyectoWeb2\\wwwroot\\js\\stadium.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6868"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AVi9EfIGhSjsy4rpVI1oS3MRNvaHHd/I4bbAmrhAl3k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 24 Oct 2025 21:38:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-AVi9EfIGhSjsy4rpVI1oS3MRNvaHHd/I4bbAmrhAl3k="
         }
       ]
     },
@@ -7225,6 +7349,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-pCUzvaH6ffXZ2sw0tH2dbO/NlHfOkczgqy+sAexiVR8="
+        }
+      ]
+    },
+    {
+      "Route": "stadium.76kh92pnbt.html",
+      "AssetFile": "C:\\Net\\PrograWeb2Proyecto\\ProyectoWeb2\\wwwroot\\stadium.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1972"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oT7IWHENWliCtvQE5BLG5t4DSmFzqLYiEUkl3MfSMwU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 24 Oct 2025 21:37:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "76kh92pnbt"
+        },
+        {
+          "Name": "label",
+          "Value": "stadium.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-oT7IWHENWliCtvQE5BLG5t4DSmFzqLYiEUkl3MfSMwU="
+        }
+      ]
+    },
+    {
+      "Route": "stadium.html",
+      "AssetFile": "C:\\Net\\PrograWeb2Proyecto\\ProyectoWeb2\\wwwroot\\stadium.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1972"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oT7IWHENWliCtvQE5BLG5t4DSmFzqLYiEUkl3MfSMwU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 24 Oct 2025 21:37:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-oT7IWHENWliCtvQE5BLG5t4DSmFzqLYiEUkl3MfSMwU="
         }
       ]
     }

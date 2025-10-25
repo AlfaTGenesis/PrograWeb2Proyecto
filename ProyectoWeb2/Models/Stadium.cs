@@ -21,5 +21,7 @@ namespace ProyectoWeb2.Models
         public string? ImageUrl { get; set; }
 
         public virtual ICollection<Hotel> Hotels { get; set; } = new List<Hotel>();
+        public virtual ICollection<TouristAttraction> TouristAttractions { get; set; } = new List<TouristAttraction>();
+
     }
 }

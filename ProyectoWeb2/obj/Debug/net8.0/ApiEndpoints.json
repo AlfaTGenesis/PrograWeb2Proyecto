@@ -477,7 +477,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[ProyectoWeb2.Models.Stadium, ProyectoWeb2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ProyectoWeb2.Dtos.StadiumDto, ProyectoWeb2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -529,7 +529,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "ProyectoWeb2.Models.Stadium",
+        "Type": "ProyectoWeb2.Dtos.StadiumDetailDto",
         "MediaTypes": [
           "text/plain",
           "application/json",

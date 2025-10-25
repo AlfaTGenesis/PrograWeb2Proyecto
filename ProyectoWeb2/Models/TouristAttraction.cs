@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ProyectoWeb2.Models
 {
@@ -15,9 +16,15 @@ namespace ProyectoWeb2.Models
         public string Description { get; set; }
 
         [Required]
-        [StringLength(100)]
-        public string City { get; set; }
+        [StringLength(50)]
+        
+        public string? Type { get; set; }
 
         public string? ImageUrl { get; set; }
+
+        public int StadiumId { get; set; }
+        [ForeignKey("StadiumId")]
+        public virtual Stadium? Stadium { get; set; }
+
     }
 }

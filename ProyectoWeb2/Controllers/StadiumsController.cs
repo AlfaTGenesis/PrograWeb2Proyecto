@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using ProyectoWeb2.Dtos;
 using ProyectoWeb2.Models;
 
 namespace ProyectoWeb2.Controllers
@@ -19,22 +20,69 @@ namespace ProyectoWeb2.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Stadium>>> GetStadiums()
+        [AllowAnonymous] 
+        public async Task<ActionResult<IEnumerable<StadiumDto>>> GetStadiums()
         {
-            return await _context.Stadiums.ToListAsync();
+            var stadiums = await _context.Stadiums
+                .Select(s => new StadiumDto
+                {
+                    StadiumId = s.StadiumId,
+                    Name = s.Name,
+                    City = s.City,
+                    ImageUrl = s.ImageUrl
+                })
+                .ToListAsync();
+
+            return Ok(stadiums);
         }
 
         [HttpGet("{id}")]
-        public async Task<ActionResult<Stadium>> GetStadium(int id)
+        [AllowAnonymous] // También la hacemos pública para la página de detalle
+        public async Task<ActionResult<StadiumDetailDto>> GetStadium(int id)
         {
-            var stadium = await _context.Stadiums.FindAsync(id);
+            var stadium = await _context.Stadiums
+                // Incluimos las colecciones relacionadas de Hoteles y Atracciones
+                .Include(s => s.Hotels)
+                .Include(s => s.TouristAttractions)
+                // Buscamos el estadio por ID
+                .Where(s => s.StadiumId == id)
+                // Proyectamos el resultado al DTO de detalle
+                .Select(s => new StadiumDetailDto
+                {
+                    StadiumId = s.StadiumId,
+                    Name = s.Name,
+                    City = s.City,
+                    Capacity = s.Capacity,
+                    ImageUrl = s.ImageUrl,
+
+                    // Mapeamos la lista de Hoteles a HotelDto
+                    Hotels = s.Hotels.Select(h => new HotelDto
+                    {
+                        HotelId = h.HotelId,
+                        Name = h.Name,
+                        Stars = h.Stars,
+                        ImageUrl = h.ImageUrl
+                    }).ToList(),
+
+                    // Mapeamos la lista de Atracciones a TouristAttractionDto
+                    TouristAttractions = s.TouristAttractions.Select(ta => new TouristAttractionDto
+                    {
+                        TouristAttractionId = ta.AttractionId,
+                        Name = ta.Name,
+                        Description = ta.Description,
+                        Type = ta.Type,
+                        ImageUrl = ta.ImageUrl
+                    }).ToList()
+                })
+                // Obtenemos el primer resultado o null
+                .FirstOrDefaultAsync();
 
             if (stadium == null)
             {
-                return NotFound();
+                return NotFound(new { message = "Estadio no encontrado." });
             }
 
-            return stadium;
+            return Ok(stadium);
         }
 
         [HttpPost]

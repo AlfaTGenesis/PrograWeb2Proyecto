@@ -37,6 +37,10 @@
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
+      "Id": "C:\\Net\\PrograWeb2Proyecto\\ProyectoWeb2\\wwwroot\\js\\stadium.js",
+      "PackagePath": "staticwebassets\\js\\stadium.js"
+    },
+    {
       "Id": "C:\\Net\\PrograWeb2Proyecto\\ProyectoWeb2\\wwwroot\\js\\stadiums.js",
       "PackagePath": "staticwebassets\\js\\stadiums.js"
     },
@@ -275,6 +279,10 @@
     {
       "Id": "C:\\Net\\PrograWeb2Proyecto\\ProyectoWeb2\\wwwroot\\register.html",
       "PackagePath": "staticwebassets\\register.html"
+    },
+    {
+      "Id": "C:\\Net\\PrograWeb2Proyecto\\ProyectoWeb2\\wwwroot\\stadium.html",
+      "PackagePath": "staticwebassets\\stadium.html"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ProyectoWeb2.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
