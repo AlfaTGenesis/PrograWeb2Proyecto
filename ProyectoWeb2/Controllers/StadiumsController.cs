@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using ProyectoWeb2.Dtos;
 using ProyectoWeb2.Models;
+using System.Diagnostics;
 
 namespace ProyectoWeb2.Controllers
 {
@@ -10,6 +11,7 @@ namespace ProyectoWeb2.Controllers
 
     // api/Stadiums
     [Route("api/[controller]")]
+    [Authorize]
     public class StadiumsController : ControllerBase
     {
         private readonly ApplicationDbContext _context;
@@ -17,6 +19,7 @@ namespace ProyectoWeb2.Controllers
         public StadiumsController(ApplicationDbContext context)
         {
             _context = context;
+
         }
 
         [HttpGet]
@@ -36,53 +39,56 @@ namespace ProyectoWeb2.Controllers
             return Ok(stadiums);
         }
 
+        [AllowAnonymous] 
         [HttpGet("{id}")]
-        [AllowAnonymous] // También la hacemos pública para la página de detalle
         public async Task<ActionResult<StadiumDetailDto>> GetStadium(int id)
         {
-            var stadium = await _context.Stadiums
-                // Incluimos las colecciones relacionadas de Hoteles y Atracciones
-                .Include(s => s.Hotels)
-                .Include(s => s.TouristAttractions)
-                // Buscamos el estadio por ID
-                .Where(s => s.StadiumId == id)
-                // Proyectamos el resultado al DTO de detalle
-                .Select(s => new StadiumDetailDto
-                {
-                    StadiumId = s.StadiumId,
-                    Name = s.Name,
-                    City = s.City,
-                    Capacity = s.Capacity,
-                    ImageUrl = s.ImageUrl,
+            try
+            {
 
-                    // Mapeamos la lista de Hoteles a HotelDto
-                    Hotels = s.Hotels.Select(h => new HotelDto
+                var stadium = await _context.Stadiums
+                  .Include(s => s.Hotels) 
+                  .Include(s => s.TouristAttractions) 
+                  .AsNoTracking() 
+                  .FirstOrDefaultAsync(s => s.StadiumId == id); 
+
+                if (stadium == null)
+                {
+                   // _logger.LogWarning($"No se encontró el estadio con ID: {id}");
+                    return NotFound(new { message = $"No se encontró el estadio con ID {id}" });
+                }
+
+                var stadiumDetailDto = new StadiumDetailDto
+                {
+                    StadiumId = stadium.StadiumId,
+                    Name = stadium.Name,
+                    City = stadium.City,
+                    Capacity = stadium.Capacity,
+                    ImageUrl = stadium.ImageUrl,
+                    Hotels = stadium.Hotels.Select(h => new HotelDto
                     {
                         HotelId = h.HotelId,
                         Name = h.Name,
+                        Address = h.Address,
                         Stars = h.Stars,
                         ImageUrl = h.ImageUrl
                     }).ToList(),
-
-                    // Mapeamos la lista de Atracciones a TouristAttractionDto
-                    TouristAttractions = s.TouristAttractions.Select(ta => new TouristAttractionDto
+                    TouristAttractions = stadium.TouristAttractions.Select(ta => new TouristAttractionDto
                     {
                         TouristAttractionId = ta.AttractionId,
                         Name = ta.Name,
-                        Description = ta.Description,
                         Type = ta.Type,
                         ImageUrl = ta.ImageUrl
                     }).ToList()
-                })
-                // Obtenemos el primer resultado o null
-                .FirstOrDefaultAsync();
+                };
 
-            if (stadium == null)
-            {
-                return NotFound(new { message = "Estadio no encontrado." });
+                return Ok(stadiumDetailDto);
             }
-
-            return Ok(stadium);
+            catch (Exception ex)
+            {
+                //_logger.LogError(ex, $"Error al obtener detalles del estadio con ID: {id}");
+                return StatusCode(500, new { message = "Error interno del servidor al obtener detalles del estadio." });
+            }
         }
 
         [HttpPost]

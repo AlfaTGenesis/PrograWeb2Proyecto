@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Detalle de Estadio - World Cup Guide</title>
 
-    <!-- Dependencias -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -14,35 +13,26 @@
 </head>
 <body>
 
-    <!-- Barra de Navegación -->
     <nav id="navbar-container" class="navbar"></nav>
 
-    <!-- Contenedor principal de la aplicación -->
     <main class="app-container">
 
-        <!-- Contenedor para los detalles del estadio (se llenará desde JS) -->
         <div id="stadium-detail-container" class="mb-12">
-            <!-- El contenido del estadio (imagen, nombre, etc.) se insertará aquí -->
         </div>
 
-        <!-- Sección de Hoteles Cercanos -->
         <h2 class="text-3xl font-bold mb-6 text-white">Hoteles Cercanos</h2>
         <div id="hotels-list-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
-            <!-- Las tarjetas de hoteles se insertarán aquí -->
         </div>
 
-        <!-- --- INICIO DE LA ACTUALIZACIÓN --- -->
-        <!-- Sección de Atracciones Turísticas Cercanas -->
+
         <h2 class="text-3xl font-bold mb-6 text-white">Atracciones Turísticas</h2>
         <div id="attractions-list-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <!-- Las tarjetas de atracciones se insertarán aquí -->
         </div>
 
-        <!-- --- FIN DE LA ACTUALIZACIÓN --- -->
+
 
     </main>
 
-    <!-- Scripts -->
     <script src="/js/main.js" defer></script>
     <script src="/js/stadium.js" defer></script>
 </body>

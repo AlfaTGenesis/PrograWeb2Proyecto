@@ -1,0 +1,7 @@
+1. Instalar Prerrequisitos: Asegurarse de tener instalado Git, Docker Desktop y el SDK de .NET 8.
+2. Instalar Herramientas de EF Core: dotnet tool install --global dotnet-ef
+3. clonar el repositorio de GitHub
+4. Instala Docker
+5. en la terminal dentro de la carpeta del proyecto ejecuta "Docker compose up --build -d"
+6. cuando termine el proceso, abre Docker desktop, apaga el contenedor "worldCupGuide_App" y vuélvelo a encender.
+7. Abre el http://localhost:8000

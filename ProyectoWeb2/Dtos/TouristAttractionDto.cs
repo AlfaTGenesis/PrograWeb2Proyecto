@@ -1,6 +1,5 @@
 ﻿namespace ProyectoWeb2.Dtos
 {
-    // DTO para representar una atracción turística en una respuesta de API.
     public class TouristAttractionDto
     {
         public int TouristAttractionId { get; set; }

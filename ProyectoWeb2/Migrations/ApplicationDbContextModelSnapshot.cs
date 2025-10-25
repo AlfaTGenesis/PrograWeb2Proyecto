@@ -36,6 +36,9 @@ namespace ProyectoWeb2.Migrations
                     b.Property<DateTime>("CheckOutDate")
                         .HasColumnType("datetime(6)");
 
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime(6)");
+
                     b.Property<int>("HotelId")
                         .HasColumnType("int");
 
@@ -81,8 +84,8 @@ namespace ProyectoWeb2.Migrations
                     b.Property<int>("StadiumId")
                         .HasColumnType("int");
 
-                    b.Property<int>("Stars")
-                        .HasColumnType("int");
+                    b.Property<double>("Stars")
+                        .HasColumnType("double");
 
                     b.HasKey("HotelId");
 
@@ -247,7 +250,7 @@ namespace ProyectoWeb2.Migrations
             modelBuilder.Entity("ProyectoWeb2.Models.Review", b =>
                 {
                     b.HasOne("ProyectoWeb2.Models.Hotel", "Hotel")
-                        .WithMany()
+                        .WithMany("Reviews")
                         .HasForeignKey("HotelId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -266,7 +269,7 @@ namespace ProyectoWeb2.Migrations
             modelBuilder.Entity("ProyectoWeb2.Models.TouristAttraction", b =>
                 {
                     b.HasOne("ProyectoWeb2.Models.Stadium", "Stadium")
-                        .WithMany()
+                        .WithMany("TouristAttractions")
                         .HasForeignKey("StadiumId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -274,9 +277,16 @@ namespace ProyectoWeb2.Migrations
                     b.Navigation("Stadium");
                 });
 
+            modelBuilder.Entity("ProyectoWeb2.Models.Hotel", b =>
+                {
+                    b.Navigation("Reviews");
+                });
+
             modelBuilder.Entity("ProyectoWeb2.Models.Stadium", b =>
                 {
                     b.Navigation("Hotels");
+
+                    b.Navigation("TouristAttractions");
                 });
 #pragma warning restore 612, 618
         }

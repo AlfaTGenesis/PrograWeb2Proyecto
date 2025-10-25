@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using ProyectoWeb2.Dtos;
 using ProyectoWeb2.Models;
 
 namespace ProyectoWeb2.Controllers
@@ -24,18 +25,51 @@ namespace ProyectoWeb2.Controllers
             return await _context.Hotels.ToListAsync();
         }
 
+        [AllowAnonymous] 
         [HttpGet("{id}")]
-        public async Task<ActionResult<Hotel>> GetHotel(int id)
+        public async Task<ActionResult<HotelDetailDto>> GetHotel(int id)
         {
-
-            var hotel = await _context.Hotels.FindAsync(id);
-
-            if (hotel == null)
+            try
             {
-                return NotFound();
-            }
+                var hotel = await _context.Hotels
+                    .Include(h => h.Stadium) 
+                    .Include(h => h.Reviews) 
+                        .ThenInclude(r => r.User) 
+                    .AsNoTracking()
+                    .FirstOrDefaultAsync(h => h.HotelId == id);
 
-            return hotel;
+                if (hotel == null)
+                {
+                    return NotFound(new { message = $"No se encontró el hotel con ID {id}" });
+                }
+
+
+                var hotelDetailDto = new HotelDetailDto
+                {
+                    HotelId = hotel.HotelId,
+                    Name = hotel.Name,
+                    Address = hotel.Address,
+                    Stars = hotel.Stars,
+                    Description = hotel.Description,
+                    ImageUrl = hotel.ImageUrl,
+                    StadiumName = hotel.Stadium?.Name, 
+
+                    Reviews = hotel.Reviews.Select(r => new ReviewDto
+                    {
+                        ReviewId = r.ReviewId,
+                        Rating = r.Rating,
+                        Comment = r.Comment,
+                        DatePosted = r.DatePosted,
+                        UserName = r.User?.Name 
+                    }).OrderByDescending(r => r.DatePosted).ToList() 
+                };
+
+                return Ok(hotelDetailDto);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new { message = "Error interno del servidor al obtener detalles del hotel." });
+            }
         }
 
         [HttpPost]

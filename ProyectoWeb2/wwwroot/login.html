@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Iniciar Sesión - World Cup Guide</title>
 
-    <!-- Dependencias (Fuente, Tailwind, CSS Principal) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -14,22 +13,21 @@
 </head>
 <body>
 
-    <!-- Barra de Navegación (se renderiza desde main.js) -->
+
     <nav id="navbar-container" class="navbar"></nav>
 
-    <!-- Contenedor principal de la aplicación -->
+
     <main class="app-container flex justify-center items-start pt-12">
 
-        <!-- Formulario de Inicio de Sesión -->
+
         <div class="form-container w-full max-w-md">
             <h1 class="text-3xl font-bold text-center mb-6">Iniciar Sesión</h1>
 
-            <!-- Mensaje de Error (se llenará desde JS) -->
+
             <div id="error-message" class="hidden bg-red-900 border border-red-700 text-red-200 px-4 py-3 rounded-lg mb-4" role="alert">
-                <!-- El texto del error se insertará aquí -->
+
             </div>
 
-            <!-- Formulario -->
             <form id="login-form">
                 <div class="form-group">
                     <label for="email">Correo Electrónico</label>
@@ -54,7 +52,7 @@
 
     </main>
 
-    <!-- Scripts -->
+
     <script src="/js/main.js" defer></script>
     <script src="/js/login.js" defer></script>
 </body>

@@ -20,6 +20,7 @@ namespace ProyectoWeb2.Models
 
         [Required]
         public int NumberOfGuests { get; set; }
+        public DateTime CreatedAt { get; set; }
 
         [ForeignKey("UserId")]
         public virtual User? User { get; set; }

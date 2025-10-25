@@ -1,7 +1,9 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using ProyectoWeb2.Dtos;
 using ProyectoWeb2.Models;
+using System.Security.Claims;
 
 namespace ProyectoWeb2.Controllers
 {
@@ -38,12 +40,49 @@ namespace ProyectoWeb2.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<Review>> PostReview(Review review)
+        [Authorize] 
+        public async Task<IActionResult> PostReview([FromBody] CreateReviewDto createReviewDto)
         {
-            _context.Reviews.Add(review);
-            await _context.SaveChangesAsync();
 
-            return CreatedAtAction(nameof(GetReview), new { id = review.ReviewId }, review);
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            var userName = User.FindFirstValue(ClaimTypes.Name) ?? "Anónimo";
+
+            if (userId == null)
+            {
+                return Unauthorized(new { message = "Usuario no autorizado." });
+            }
+
+            var newReview = new Review
+            {
+                HotelId = createReviewDto.HotelId,
+                UserId = int.Parse(userId),
+                Comment = createReviewDto.Comment,
+                Rating = createReviewDto.Rating,
+                DatePosted = DateTime.UtcNow 
+            };
+
+            try
+            {
+                
+                _context.Reviews.Add(newReview);
+                await _context.SaveChangesAsync();
+
+                var reviewDto = new ReviewDto
+                {
+                    ReviewId = newReview.ReviewId,
+                    UserName = userName, 
+                    Comment = newReview.Comment,
+                    Rating = newReview.Rating,
+                    DatePosted = newReview.DatePosted
+                };
+
+                return Ok(reviewDto);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error al guardar la reseña: {ex.Message}");
+                return StatusCode(500, new { message = "Error interno al guardar la reseña. Inténtelo de nuevo." });
+            }
         }
 
         [HttpPut("{id}")]

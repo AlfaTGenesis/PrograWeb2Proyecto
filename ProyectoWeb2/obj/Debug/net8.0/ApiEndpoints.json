@@ -162,6 +162,16 @@
   },
   {
     "ContainingType": "ProyectoWeb2.Controllers.BookingsController",
+    "Method": "GetUserBookings",
+    "RelativePath": "api/Bookings",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProyectoWeb2.Controllers.BookingsController",
     "Method": "PostBooking",
     "RelativePath": "api/Bookings",
     "HttpMethod": "POST",
@@ -311,7 +321,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "ProyectoWeb2.Models.Hotel",
+        "Type": "ProyectoWeb2.Dtos.HotelDetailDto",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -387,22 +397,12 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "review",
-        "Type": "ProyectoWeb2.Models.Review",
+        "Name": "createReviewDto",
+        "Type": "ProyectoWeb2.Dtos.CreateReviewDto",
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "ProyectoWeb2.Models.Review",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
     "ContainingType": "ProyectoWeb2.Controllers.ReviewsController",

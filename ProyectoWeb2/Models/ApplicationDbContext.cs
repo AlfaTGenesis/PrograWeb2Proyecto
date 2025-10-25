@@ -24,6 +24,11 @@ namespace ProyectoWeb2.Models
                 .HasMany(s => s.Hotels)
                 .WithOne(h => h.Stadium)
                 .HasForeignKey(h => h.StadiumId);
+
+            modelBuilder.Entity<Stadium>()
+                .HasMany(s => s.TouristAttractions)
+                .WithOne(h => h.Stadium)
+                .HasForeignKey(h => h.StadiumId);
         }
     }
 }

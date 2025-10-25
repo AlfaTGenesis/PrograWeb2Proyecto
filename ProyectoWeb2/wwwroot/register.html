@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registro - World Cup Guide</title>
 
-    <!-- Dependencias (Fuente, Tailwind, CSS Principal) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -14,22 +13,18 @@
 </head>
 <body>
 
-    <!-- Barra de Navegación (se renderiza desde main.js) -->
     <nav id="navbar-container" class="navbar"></nav>
 
-    <!-- Contenedor principal de la aplicación -->
+
     <main class="app-container flex justify-center items-start pt-12">
 
-        <!-- Formulario de Registro -->
+
         <div class="form-container w-full max-w-md">
             <h1 class="text-3xl font-bold text-center mb-6">Crear Cuenta</h1>
 
-            <!-- Mensaje de Error/Éxito (se llenará desde JS) -->
             <div id="message-container" class="hidden px-4 py-3 rounded-lg mb-4" role="alert">
-                <!-- El texto del mensaje se insertará aquí -->
             </div>
 
-            <!-- Formulario -->
             <form id="register-form">
                 <div class="form-group">
                     <label for="name">Nombre Completo</label>
@@ -59,7 +54,6 @@
 
     </main>
 
-    <!-- Scripts -->
     <script src="/js/main.js" defer></script>
     <script src="/js/register.js" defer></script>
 </body>

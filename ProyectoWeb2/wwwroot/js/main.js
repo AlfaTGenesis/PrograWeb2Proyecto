@@ -1,5 +1,5 @@
 ﻿
-const API_BASE_URL = 'http://localhost:8000/api';
+const API_BASE_URL = 'http://localhost:8000';
 
 
 /**
@@ -101,7 +101,7 @@ function renderNavbar() {
             <a href="/index.html" class="navbar-brand">WorldCup<span>Guide</span></a>
             <div class="navbar-links">
                 <a href="/index.html">Estadios</a>
-                <!-- Aquí podrías añadir un enlace a "Mis Reservas" en el futuro -->
+                <a href="/reservas.html">Mis Reservas </a>
                 <a href="#" onclick="logout()" class="btn btn-secondary">Cerrar Sesión</a>
             </div>
         `;

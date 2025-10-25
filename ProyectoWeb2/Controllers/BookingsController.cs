@@ -1,7 +1,9 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using ProyectoWeb2.Dtos;
 using ProyectoWeb2.Models;
+using System.Security.Claims;
 
 namespace ProyectoWeb2.Controllers
 {
@@ -24,7 +26,43 @@ namespace ProyectoWeb2.Controllers
         {
             return await _context.Bookings.ToListAsync();
         }
+        [HttpGet]
+        public async Task<IActionResult> GetUserBookings()
+        {
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
 
+            if (userId == null)
+            {
+                return Unauthorized(new { message = "Usuario no autorizado." });
+            }
+
+            try
+            {
+                var bookings = await _context.Bookings
+                    .Where(b => b.UserId == int.Parse(userId))
+                    .Include(b => b.Hotel) // Incluir la información del hotel
+                    .Select(b => new BookingDto
+                    {
+                        BookingId = b.BookingId,
+                        HotelId = b.HotelId,
+                        HotelName = b.Hotel != null ? b.Hotel.Name : "Hotel no disponible",
+                        HotelImageUrl = b.Hotel != null ? b.Hotel.ImageUrl ?? "" : "",
+                        HotelAddress = b.Hotel != null ? b.Hotel.Address : "",
+                        CheckInDate = b.CheckInDate,
+                        CheckOutDate = b.CheckOutDate,
+                        NumberOfGuests = b.NumberOfGuests,
+                        CreatedAt = b.CreatedAt
+                    })
+                    .ToListAsync();
+
+                return Ok(bookings);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error al obtener reservas: {ex.Message}");
+                return StatusCode(500, new { message = "Error interno al obtener las reservas." });
+            }
+        }
         [HttpGet("{id}")]
         public async Task<ActionResult<Booking>> GetBooking(int id)
         {

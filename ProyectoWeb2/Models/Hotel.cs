@@ -16,7 +16,8 @@ namespace ProyectoWeb2.Models
         [StringLength(200)]
         public string Address { get; set; }
 
-        public int Stars { get; set; } 
+        [Range(0, 5)]
+        public double Stars { get; set; } 
 
         public string? Description { get; set; }
 
@@ -26,5 +27,8 @@ namespace ProyectoWeb2.Models
 
         [ForeignKey("StadiumId")]
         public virtual Stadium? Stadium { get; set; }
+
+
+        public virtual ICollection<Review> Reviews { get; set; } = new List<Review>();
     }
 }
