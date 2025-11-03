@@ -52,6 +52,7 @@ namespace ProyectoWeb2.Controllers
                 return Unauthorized(new { message = "Usuario no autorizado." });
             }
 
+            Console.WriteLine($"Creando reseña para el usuario ID: {userId}, Nombre: {userName}");
             var newReview = new Review
             {
                 HotelId = createReviewDto.HotelId,

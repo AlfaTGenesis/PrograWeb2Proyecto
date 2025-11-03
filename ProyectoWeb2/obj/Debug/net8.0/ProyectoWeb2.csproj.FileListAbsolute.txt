@@ -301,3 +301,4 @@ C:\Stuff\Escuela\9n0\PW2\ProyectoWeb2\ProyectoWeb2\obj\Debug\net8.0\refint\Proye
 C:\Stuff\Escuela\9n0\PW2\ProyectoWeb2\ProyectoWeb2\obj\Debug\net8.0\ProyectoWeb2.pdb
 C:\Stuff\Escuela\9n0\PW2\ProyectoWeb2\ProyectoWeb2\obj\Debug\net8.0\ProyectoWeb2.genruntimeconfig.cache
 C:\Stuff\Escuela\9n0\PW2\ProyectoWeb2\ProyectoWeb2\obj\Debug\net8.0\ref\ProyectoWeb2.dll
+C:\Net\PrograWeb2Proyecto\ProyectoWeb2\bin\Debug\net8.0\data_seed.sql

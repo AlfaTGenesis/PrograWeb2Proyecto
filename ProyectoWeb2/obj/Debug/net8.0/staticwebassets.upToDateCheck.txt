@@ -1,10 +1,13 @@
 wwwroot\css\main.css
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\hotel.html
 wwwroot\index.html
+wwwroot\js\hotel.js
 wwwroot\js\login.js
 wwwroot\js\main.js
 wwwroot\js\register.js
+wwwroot\js\reservas.js
 wwwroot\js\site.js
 wwwroot\js\stadium.js
 wwwroot\js\stadiums.js
@@ -67,4 +70,5 @@ wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
 wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
 wwwroot\login.html
 wwwroot\register.html
+wwwroot\reservas.html
 wwwroot\stadium.html
