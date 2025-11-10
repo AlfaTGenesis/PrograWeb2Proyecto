@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "G/UyaV/3pSnLwUuMykuSMknJ5tN75pEukS+gFruZhv4=",
+  "Hash": "sCUW40t8TjFhyEN19FUdnffpEkIJnk9tD58u012gEjk=",
   "Source": "ProyectoWeb2",
   "BasePath": "_content/ProyectoWeb2",
   "Mode": "Default",
@@ -136,8 +136,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "2n9l7wl7ez",
-      "Integrity": "DhuBfTUEHCgyCAuk5gRrPQnMn3lqsjYkm6gQ3lOR86s=",
+      "Fingerprint": "ny2criwt8j",
+      "Integrity": "/1zP3Rt7tY4FWoEvwuNCzZtU16yhhkq1LRptB7kmMBs=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\hotel.html"
@@ -178,8 +178,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "bo7fr5sryz",
-      "Integrity": "m4NIMo2T8kNcIQRw8iI4CpZMga4Ien6qcVoHUSBcYyQ=",
+      "Fingerprint": "nhjpx0llm0",
+      "Integrity": "6399yIK1lhhg/VdvH8RAAvgqIi1pdTSYd6ivPtP67FY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\hotel.js"
@@ -1861,51 +1861,6 @@
       ]
     },
     {
-      "Route": "hotel.2n9l7wl7ez.html",
-      "AssetFile": "C:\\Net\\PrograWeb2Proyecto\\ProyectoWeb2\\wwwroot\\hotel.html",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2541"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"DhuBfTUEHCgyCAuk5gRrPQnMn3lqsjYkm6gQ3lOR86s=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 27 Oct 2025 20:52:40 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "2n9l7wl7ez"
-        },
-        {
-          "Name": "label",
-          "Value": "hotel.html"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-DhuBfTUEHCgyCAuk5gRrPQnMn3lqsjYkm6gQ3lOR86s="
-        }
-      ]
-    },
-    {
       "Route": "hotel.html",
       "AssetFile": "C:\\Net\\PrograWeb2Proyecto\\ProyectoWeb2\\wwwroot\\hotel.html",
       "Selectors": [],
@@ -1916,7 +1871,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2541"
+          "Value": "4990"
         },
         {
           "Name": "Content-Type",
@@ -1924,11 +1879,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"DhuBfTUEHCgyCAuk5gRrPQnMn3lqsjYkm6gQ3lOR86s=\""
+          "Value": "\"/1zP3Rt7tY4FWoEvwuNCzZtU16yhhkq1LRptB7kmMBs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 27 Oct 2025 20:52:40 GMT"
+          "Value": "Wed, 05 Nov 2025 21:29:28 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1938,7 +1893,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-DhuBfTUEHCgyCAuk5gRrPQnMn3lqsjYkm6gQ3lOR86s="
+          "Value": "sha256-/1zP3Rt7tY4FWoEvwuNCzZtU16yhhkq1LRptB7kmMBs="
+        }
+      ]
+    },
+    {
+      "Route": "hotel.ny2criwt8j.html",
+      "AssetFile": "C:\\Net\\PrograWeb2Proyecto\\ProyectoWeb2\\wwwroot\\hotel.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4990"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/1zP3Rt7tY4FWoEvwuNCzZtU16yhhkq1LRptB7kmMBs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Nov 2025 21:29:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ny2criwt8j"
+        },
+        {
+          "Name": "label",
+          "Value": "hotel.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/1zP3Rt7tY4FWoEvwuNCzZtU16yhhkq1LRptB7kmMBs="
         }
       ]
     },
@@ -2025,51 +2025,6 @@
       ]
     },
     {
-      "Route": "js/hotel.bo7fr5sryz.js",
-      "AssetFile": "C:\\Net\\PrograWeb2Proyecto\\ProyectoWeb2\\wwwroot\\js\\hotel.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "6882"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"m4NIMo2T8kNcIQRw8iI4CpZMga4Ien6qcVoHUSBcYyQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 27 Oct 2025 20:52:40 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "bo7fr5sryz"
-        },
-        {
-          "Name": "label",
-          "Value": "js/hotel.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-m4NIMo2T8kNcIQRw8iI4CpZMga4Ien6qcVoHUSBcYyQ="
-        }
-      ]
-    },
-    {
       "Route": "js/hotel.js",
       "AssetFile": "C:\\Net\\PrograWeb2Proyecto\\ProyectoWeb2\\wwwroot\\js\\hotel.js",
       "Selectors": [],
@@ -2080,7 +2035,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6882"
+          "Value": "11387"
         },
         {
           "Name": "Content-Type",
@@ -2088,11 +2043,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"m4NIMo2T8kNcIQRw8iI4CpZMga4Ien6qcVoHUSBcYyQ=\""
+          "Value": "\"6399yIK1lhhg/VdvH8RAAvgqIi1pdTSYd6ivPtP67FY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 27 Oct 2025 20:52:40 GMT"
+          "Value": "Wed, 05 Nov 2025 22:36:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2102,7 +2057,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-m4NIMo2T8kNcIQRw8iI4CpZMga4Ien6qcVoHUSBcYyQ="
+          "Value": "sha256-6399yIK1lhhg/VdvH8RAAvgqIi1pdTSYd6ivPtP67FY="
+        }
+      ]
+    },
+    {
+      "Route": "js/hotel.nhjpx0llm0.js",
+      "AssetFile": "C:\\Net\\PrograWeb2Proyecto\\ProyectoWeb2\\wwwroot\\js\\hotel.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11387"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6399yIK1lhhg/VdvH8RAAvgqIi1pdTSYd6ivPtP67FY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Nov 2025 22:36:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nhjpx0llm0"
+        },
+        {
+          "Name": "label",
+          "Value": "js/hotel.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-6399yIK1lhhg/VdvH8RAAvgqIi1pdTSYd6ivPtP67FY="
         }
       ]
     },
@@ -7459,7 +7459,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 19 Sep 2025 19:32:26 GMT"
+          "Value": "Wed, 05 Nov 2025 23:36:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7496,7 +7496,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 19 Sep 2025 19:32:26 GMT"
+          "Value": "Wed, 05 Nov 2025 23:36:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7541,7 +7541,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 19 Sep 2025 19:32:26 GMT"
+          "Value": "Wed, 05 Nov 2025 23:36:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7586,7 +7586,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 19 Sep 2025 19:32:26 GMT"
+          "Value": "Wed, 05 Nov 2025 23:36:58 GMT"
         },
         {
           "Name": "Cache-Control",

@@ -142,9 +142,35 @@
   },
   {
     "ContainingType": "ProyectoWeb2.Controllers.BookingsController",
-    "Method": "GetBookings",
+    "Method": "GetUserBookings",
     "RelativePath": "api/Bookings",
     "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProyectoWeb2.Controllers.BookingsController",
+    "Method": "CreateBooking",
+    "RelativePath": "api/Bookings",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createBookingDto",
+        "Type": "ProyectoWeb2.Dtos.CreateBookingDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProyectoWeb2.Controllers.BookingsController",
+    "Method": "GetBookings",
+    "RelativePath": "api/Bookings",
+    "HttpMethod": "",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
@@ -162,7 +188,7 @@
   },
   {
     "ContainingType": "ProyectoWeb2.Controllers.BookingsController",
-    "Method": "GetUserBookings",
+    "Method": "GetUserBookings2",
     "RelativePath": "api/Bookings",
     "HttpMethod": "GET",
     "IsController": true,

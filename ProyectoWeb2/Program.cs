@@ -8,19 +8,21 @@ using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
-var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
+//var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
 
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy(name: MyAllowSpecificOrigins,
+    options.AddPolicy(name: "AllowSpecificOrigins",
                       policy =>
                       {
                           policy.WithOrigins(
                                 "https://localhost:7268", // El origen de tu Kestrel (Frontend VS)
                                 "http://localhost:7268",  // Por si acaso corre en http
-                                "http://localhost:8000"   // El origen de tu Docker (Frontend Docker)
+                                "http://localhost:8000",
+                                "http://localhost:5268"// El origen de tu Docker (Frontend Docker)
                               )
                               .AllowAnyHeader()
+                              .AllowAnyOrigin()
                               .AllowAnyMethod();
                       });
 });
@@ -103,7 +105,7 @@ if (!app.Environment.IsDevelopment())
 
 app.UseRouting();
 
-app.UseCors(MyAllowSpecificOrigins);
+app.UseCors("AllowSpecificOrigins");
 
 app.UseAuthentication();
 app.UseAuthorization();
