@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "sCUW40t8TjFhyEN19FUdnffpEkIJnk9tD58u012gEjk=",
+  "Hash": "b3uQ5AD22puO28sET5SvgfvAC0SdTTTdkfn2Z9bqlq8=",
   "Source": "ProyectoWeb2",
   "BasePath": "_content/ProyectoWeb2",
   "Mode": "Default",
@@ -178,8 +178,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "nhjpx0llm0",
-      "Integrity": "6399yIK1lhhg/VdvH8RAAvgqIi1pdTSYd6ivPtP67FY=",
+      "Fingerprint": "bsohu2018s",
+      "Integrity": "RQJXh/otMm2AtcvHcoZ5EpOtFbE9YB3oLqL8pTpzcGk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\hotel.js"
@@ -2025,6 +2025,51 @@
       ]
     },
     {
+      "Route": "js/hotel.bsohu2018s.js",
+      "AssetFile": "C:\\Net\\PrograWeb2Proyecto\\ProyectoWeb2\\wwwroot\\js\\hotel.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11573"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RQJXh/otMm2AtcvHcoZ5EpOtFbE9YB3oLqL8pTpzcGk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Nov 2025 23:55:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bsohu2018s"
+        },
+        {
+          "Name": "label",
+          "Value": "js/hotel.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-RQJXh/otMm2AtcvHcoZ5EpOtFbE9YB3oLqL8pTpzcGk="
+        }
+      ]
+    },
+    {
       "Route": "js/hotel.js",
       "AssetFile": "C:\\Net\\PrograWeb2Proyecto\\ProyectoWeb2\\wwwroot\\js\\hotel.js",
       "Selectors": [],
@@ -2035,7 +2080,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "11387"
+          "Value": "11573"
         },
         {
           "Name": "Content-Type",
@@ -2043,11 +2088,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"6399yIK1lhhg/VdvH8RAAvgqIi1pdTSYd6ivPtP67FY=\""
+          "Value": "\"RQJXh/otMm2AtcvHcoZ5EpOtFbE9YB3oLqL8pTpzcGk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 05 Nov 2025 22:36:15 GMT"
+          "Value": "Wed, 05 Nov 2025 23:55:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2057,52 +2102,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-6399yIK1lhhg/VdvH8RAAvgqIi1pdTSYd6ivPtP67FY="
-        }
-      ]
-    },
-    {
-      "Route": "js/hotel.nhjpx0llm0.js",
-      "AssetFile": "C:\\Net\\PrograWeb2Proyecto\\ProyectoWeb2\\wwwroot\\js\\hotel.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "11387"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"6399yIK1lhhg/VdvH8RAAvgqIi1pdTSYd6ivPtP67FY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 05 Nov 2025 22:36:15 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "nhjpx0llm0"
-        },
-        {
-          "Name": "label",
-          "Value": "js/hotel.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-6399yIK1lhhg/VdvH8RAAvgqIi1pdTSYd6ivPtP67FY="
+          "Value": "sha256-RQJXh/otMm2AtcvHcoZ5EpOtFbE9YB3oLqL8pTpzcGk="
         }
       ]
     },

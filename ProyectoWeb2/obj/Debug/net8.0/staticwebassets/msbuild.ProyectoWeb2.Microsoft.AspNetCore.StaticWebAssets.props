@@ -102,8 +102,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>nhjpx0llm0</Fingerprint>
-      <Integrity>6399yIK1lhhg/VdvH8RAAvgqIi1pdTSYd6ivPtP67FY=</Integrity>
+      <Fingerprint>bsohu2018s</Fingerprint>
+      <Integrity>RQJXh/otMm2AtcvHcoZ5EpOtFbE9YB3oLqL8pTpzcGk=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\hotel.js'))</OriginalItemSpec>

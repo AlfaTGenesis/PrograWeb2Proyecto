@@ -168,62 +168,6 @@
   },
   {
     "ContainingType": "ProyectoWeb2.Controllers.BookingsController",
-    "Method": "GetBookings",
-    "RelativePath": "api/Bookings",
-    "HttpMethod": "",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[ProyectoWeb2.Models.Booking, ProyectoWeb2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "ProyectoWeb2.Controllers.BookingsController",
-    "Method": "GetUserBookings2",
-    "RelativePath": "api/Bookings",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "ProyectoWeb2.Controllers.BookingsController",
-    "Method": "PostBooking",
-    "RelativePath": "api/Bookings",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "booking",
-        "Type": "ProyectoWeb2.Models.Booking",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "ProyectoWeb2.Models.Booking",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "ProyectoWeb2.Controllers.BookingsController",
     "Method": "GetBooking",
     "RelativePath": "api/Bookings/{id}",
     "HttpMethod": "GET",

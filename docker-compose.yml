@@ -13,6 +13,14 @@ services:
     environment:
       # ... (todas tus variables de entorno se quedan igual) ...
       - ConnectionStrings__DefaultConnection=Server=db;Port=3306;Database=${DB_DATABASE};User=root;Password=${DB_ROOT_PASSWORD}
+
+      
+      - Jwt__Issuer=${JWT_ISSUER}
+      - Jwt__Audience=${JWT_AUDIENCE}
+      - Jwt__SecretKey=${JWT_SECRETKEY}
+
+
+      - ASPNETCORE_URLS=http://+:8080
       # ...
     # ESTO ES LO QUE CAMBIA:
     depends_on:
