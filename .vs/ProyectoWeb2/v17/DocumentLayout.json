@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Net\\PrograWeb2Proyecto\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B538253F-004E-4B3A-B166-4F53981AAF4C}|ProyectoWeb2\\ProyectoWeb2.csproj|c:\\net\\prograweb2proyecto\\proyectoweb2\\wwwroot\\js\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{B538253F-004E-4B3A-B166-4F53981AAF4C}|ProyectoWeb2\\ProyectoWeb2.csproj|solutionrelative:proyectoweb2\\wwwroot\\js\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B538253F-004E-4B3A-B166-4F53981AAF4C}|ProyectoWeb2\\ProyectoWeb2.csproj|c:\\net\\prograweb2proyecto\\proyectoweb2\\wwwroot\\js\\stadiums.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{B538253F-004E-4B3A-B166-4F53981AAF4C}|ProyectoWeb2\\ProyectoWeb2.csproj|solutionrelative:proyectoweb2\\wwwroot\\js\\stadiums.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B538253F-004E-4B3A-B166-4F53981AAF4C}|ProyectoWeb2\\ProyectoWeb2.csproj|c:\\net\\prograweb2proyecto\\proyectoweb2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B538253F-004E-4B3A-B166-4F53981AAF4C}|ProyectoWeb2\\ProyectoWeb2.csproj|solutionrelative:proyectoweb2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -33,10 +41,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B538253F-004E-4B3A-B166-4F53981AAF4C}|ProyectoWeb2\\ProyectoWeb2.csproj|c:\\net\\prograweb2proyecto\\proyectoweb2\\dtos\\bookingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B538253F-004E-4B3A-B166-4F53981AAF4C}|ProyectoWeb2\\ProyectoWeb2.csproj|solutionrelative:proyectoweb2\\dtos\\bookingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B538253F-004E-4B3A-B166-4F53981AAF4C}|ProyectoWeb2\\ProyectoWeb2.csproj|c:\\net\\prograweb2proyecto\\proyectoweb2\\wwwroot\\js\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{B538253F-004E-4B3A-B166-4F53981AAF4C}|ProyectoWeb2\\ProyectoWeb2.csproj|solutionrelative:proyectoweb2\\wwwroot\\js\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B538253F-004E-4B3A-B166-4F53981AAF4C}|ProyectoWeb2\\ProyectoWeb2.csproj|c:\\net\\prograweb2proyecto\\proyectoweb2\\wwwroot\\stadium.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -147,10 +151,6 @@
       "RelativeMoniker": "D:0:0:{B538253F-004E-4B3A-B166-4F53981AAF4C}|ProyectoWeb2\\ProyectoWeb2.csproj|solutionrelative:proyectoweb2\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B538253F-004E-4B3A-B166-4F53981AAF4C}|ProyectoWeb2\\ProyectoWeb2.csproj|c:\\net\\prograweb2proyecto\\proyectoweb2\\wwwroot\\js\\stadiums.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{B538253F-004E-4B3A-B166-4F53981AAF4C}|ProyectoWeb2\\ProyectoWeb2.csproj|solutionrelative:proyectoweb2\\wwwroot\\js\\stadiums.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B538253F-004E-4B3A-B166-4F53981AAF4C}|ProyectoWeb2\\ProyectoWeb2.csproj|c:\\net\\prograweb2proyecto\\proyectoweb2\\wwwroot\\js\\stadium.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{B538253F-004E-4B3A-B166-4F53981AAF4C}|ProyectoWeb2\\ProyectoWeb2.csproj|solutionrelative:proyectoweb2\\wwwroot\\js\\stadium.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
@@ -194,7 +194,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 42,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Bookmark",
@@ -206,7 +206,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "CreateBookingDto.cs",
               "DocumentMoniker": "C:\\Net\\PrograWeb2Proyecto\\ProyectoWeb2\\Dtos\\CreateBookingDto.cs",
               "RelativeDocumentMoniker": "ProyectoWeb2\\Dtos\\CreateBookingDto.cs",
@@ -218,7 +218,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "reservas.js",
               "DocumentMoniker": "C:\\Net\\PrograWeb2Proyecto\\ProyectoWeb2\\wwwroot\\js\\reservas.js",
               "RelativeDocumentMoniker": "ProyectoWeb2\\wwwroot\\js\\reservas.js",
@@ -230,7 +230,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "reservas.html",
               "DocumentMoniker": "C:\\Net\\PrograWeb2Proyecto\\ProyectoWeb2\\wwwroot\\reservas.html",
               "RelativeDocumentMoniker": "ProyectoWeb2\\wwwroot\\reservas.html",
@@ -242,7 +242,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "BookingDto.cs",
               "DocumentMoniker": "C:\\Net\\PrograWeb2Proyecto\\ProyectoWeb2\\Dtos\\BookingDto.cs",
               "RelativeDocumentMoniker": "ProyectoWeb2\\Dtos\\BookingDto.cs",
@@ -254,7 +254,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Net\\PrograWeb2Proyecto\\ProyectoWeb2\\Models\\User.cs",
               "RelativeDocumentMoniker": "ProyectoWeb2\\Models\\User.cs",
@@ -266,7 +266,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "TouristAttraction.cs",
               "DocumentMoniker": "C:\\Net\\PrograWeb2Proyecto\\ProyectoWeb2\\Models\\TouristAttraction.cs",
               "RelativeDocumentMoniker": "ProyectoWeb2\\Models\\TouristAttraction.cs",
@@ -278,7 +278,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "Stadium.cs",
               "DocumentMoniker": "C:\\Net\\PrograWeb2Proyecto\\ProyectoWeb2\\Models\\Stadium.cs",
               "RelativeDocumentMoniker": "ProyectoWeb2\\Models\\Stadium.cs",
@@ -290,7 +290,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "Review.cs",
               "DocumentMoniker": "C:\\Net\\PrograWeb2Proyecto\\ProyectoWeb2\\Models\\Review.cs",
               "RelativeDocumentMoniker": "ProyectoWeb2\\Models\\Review.cs",
@@ -302,7 +302,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Hotel.cs",
               "DocumentMoniker": "C:\\Net\\PrograWeb2Proyecto\\ProyectoWeb2\\Models\\Hotel.cs",
               "RelativeDocumentMoniker": "ProyectoWeb2\\Models\\Hotel.cs",
@@ -314,7 +314,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "C:\\Net\\PrograWeb2Proyecto\\ProyectoWeb2\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "ProyectoWeb2\\Models\\ErrorViewModel.cs",
@@ -326,19 +326,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
               "Title": "main.js",
               "DocumentMoniker": "C:\\Net\\PrograWeb2Proyecto\\ProyectoWeb2\\wwwroot\\js\\main.js",
               "RelativeDocumentMoniker": "ProyectoWeb2\\wwwroot\\js\\main.js",
               "ToolTip": "C:\\Net\\PrograWeb2Proyecto\\ProyectoWeb2\\wwwroot\\js\\main.js",
               "RelativeToolTip": "ProyectoWeb2\\wwwroot\\js\\main.js",
-              "ViewState": "AgIAACUAAAAAAAAAAAAtwC8AAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-10-23T22:07:23.759Z"
+              "WhenOpened": "2025-10-23T22:07:23.759Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "BookingsController.cs",
               "DocumentMoniker": "C:\\Net\\PrograWeb2Proyecto\\ProyectoWeb2\\Controllers\\BookingsController.cs",
               "RelativeDocumentMoniker": "ProyectoWeb2\\Controllers\\BookingsController.cs",
@@ -350,7 +351,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Booking.cs",
               "DocumentMoniker": "C:\\Net\\PrograWeb2Proyecto\\ProyectoWeb2\\Models\\Booking.cs",
               "RelativeDocumentMoniker": "ProyectoWeb2\\Models\\Booking.cs",
@@ -362,7 +363,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "TouristAttractionDto.cs",
               "DocumentMoniker": "C:\\Net\\PrograWeb2Proyecto\\ProyectoWeb2\\Dtos\\TouristAttractionDto.cs",
               "RelativeDocumentMoniker": "ProyectoWeb2\\Dtos\\TouristAttractionDto.cs",
@@ -374,7 +375,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "StadiumDto.cs",
               "DocumentMoniker": "C:\\Net\\PrograWeb2Proyecto\\ProyectoWeb2\\Dtos\\StadiumDto.cs",
               "RelativeDocumentMoniker": "ProyectoWeb2\\Dtos\\StadiumDto.cs",
@@ -386,7 +387,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "StadiumDetailDto.cs",
               "DocumentMoniker": "C:\\Net\\PrograWeb2Proyecto\\ProyectoWeb2\\Dtos\\StadiumDetailDto.cs",
               "RelativeDocumentMoniker": "ProyectoWeb2\\Dtos\\StadiumDetailDto.cs",
@@ -398,7 +399,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "ReviewDto.cs",
               "DocumentMoniker": "C:\\Net\\PrograWeb2Proyecto\\ProyectoWeb2\\Dtos\\ReviewDto.cs",
               "RelativeDocumentMoniker": "ProyectoWeb2\\Dtos\\ReviewDto.cs",
@@ -410,7 +411,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "RegisterDto.cs",
               "DocumentMoniker": "C:\\Net\\PrograWeb2Proyecto\\ProyectoWeb2\\Dtos\\RegisterDto.cs",
               "RelativeDocumentMoniker": "ProyectoWeb2\\Dtos\\RegisterDto.cs",
@@ -422,7 +423,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "LoginDto.cs",
               "DocumentMoniker": "C:\\Net\\PrograWeb2Proyecto\\ProyectoWeb2\\Dtos\\LoginDto.cs",
               "RelativeDocumentMoniker": "ProyectoWeb2\\Dtos\\LoginDto.cs",
@@ -434,7 +435,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "HotelDto.cs",
               "DocumentMoniker": "C:\\Net\\PrograWeb2Proyecto\\ProyectoWeb2\\Dtos\\HotelDto.cs",
               "RelativeDocumentMoniker": "ProyectoWeb2\\Dtos\\HotelDto.cs",
@@ -446,7 +447,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "HotelDetailDto.cs",
               "DocumentMoniker": "C:\\Net\\PrograWeb2Proyecto\\ProyectoWeb2\\Dtos\\HotelDetailDto.cs",
               "RelativeDocumentMoniker": "ProyectoWeb2\\Dtos\\HotelDetailDto.cs",
@@ -458,7 +459,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "CreateReviewDto.cs",
               "DocumentMoniker": "C:\\Net\\PrograWeb2Proyecto\\ProyectoWeb2\\Dtos\\CreateReviewDto.cs",
               "RelativeDocumentMoniker": "ProyectoWeb2\\Dtos\\CreateReviewDto.cs",
@@ -470,7 +471,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "UsersController.cs",
               "DocumentMoniker": "C:\\Net\\PrograWeb2Proyecto\\ProyectoWeb2\\Controllers\\UsersController.cs",
               "RelativeDocumentMoniker": "ProyectoWeb2\\Controllers\\UsersController.cs",
@@ -482,7 +483,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "StadiumsController.cs",
               "DocumentMoniker": "C:\\Net\\PrograWeb2Proyecto\\ProyectoWeb2\\Controllers\\StadiumsController.cs",
               "RelativeDocumentMoniker": "ProyectoWeb2\\Controllers\\StadiumsController.cs",
@@ -494,7 +495,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "ReviewsController.cs",
               "DocumentMoniker": "C:\\Net\\PrograWeb2Proyecto\\ProyectoWeb2\\Controllers\\ReviewsController.cs",
               "RelativeDocumentMoniker": "ProyectoWeb2\\Controllers\\ReviewsController.cs",
@@ -506,7 +507,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "HotelsController.cs",
               "DocumentMoniker": "C:\\Net\\PrograWeb2Proyecto\\ProyectoWeb2\\Controllers\\HotelsController.cs",
               "RelativeDocumentMoniker": "ProyectoWeb2\\Controllers\\HotelsController.cs",
@@ -518,7 +519,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Net\\PrograWeb2Proyecto\\ProyectoWeb2\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "ProyectoWeb2\\Controllers\\HomeController.cs",
@@ -530,7 +531,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Net\\PrograWeb2Proyecto\\ProyectoWeb2\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "ProyectoWeb2\\Controllers\\AuthController.cs",
@@ -542,7 +543,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "AttractionsController.cs",
               "DocumentMoniker": "C:\\Net\\PrograWeb2Proyecto\\ProyectoWeb2\\Controllers\\AttractionsController.cs",
               "RelativeDocumentMoniker": "ProyectoWeb2\\Controllers\\AttractionsController.cs",
@@ -554,7 +555,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "stadium.html",
               "DocumentMoniker": "C:\\Net\\PrograWeb2Proyecto\\ProyectoWeb2\\wwwroot\\stadium.html",
               "RelativeDocumentMoniker": "ProyectoWeb2\\wwwroot\\stadium.html",
@@ -566,7 +567,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "register.html",
               "DocumentMoniker": "C:\\Net\\PrograWeb2Proyecto\\ProyectoWeb2\\wwwroot\\register.html",
               "RelativeDocumentMoniker": "ProyectoWeb2\\wwwroot\\register.html",
@@ -578,7 +579,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "login.html",
               "DocumentMoniker": "C:\\Net\\PrograWeb2Proyecto\\ProyectoWeb2\\wwwroot\\login.html",
               "RelativeDocumentMoniker": "ProyectoWeb2\\wwwroot\\login.html",
@@ -590,7 +591,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "index.html",
               "DocumentMoniker": "C:\\Net\\PrograWeb2Proyecto\\ProyectoWeb2\\wwwroot\\index.html",
               "RelativeDocumentMoniker": "ProyectoWeb2\\wwwroot\\index.html",
@@ -602,7 +603,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "hotel.html",
               "DocumentMoniker": "C:\\Net\\PrograWeb2Proyecto\\ProyectoWeb2\\wwwroot\\hotel.html",
               "RelativeDocumentMoniker": "ProyectoWeb2\\wwwroot\\hotel.html",
@@ -614,15 +615,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 1,
               "Title": "stadiums.js",
               "DocumentMoniker": "C:\\Net\\PrograWeb2Proyecto\\ProyectoWeb2\\wwwroot\\js\\stadiums.js",
               "RelativeDocumentMoniker": "ProyectoWeb2\\wwwroot\\js\\stadiums.js",
               "ToolTip": "C:\\Net\\PrograWeb2Proyecto\\ProyectoWeb2\\wwwroot\\js\\stadiums.js",
               "RelativeToolTip": "ProyectoWeb2\\wwwroot\\js\\stadiums.js",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAuwDEAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-10-23T23:06:31.082Z"
+              "WhenOpened": "2025-10-23T23:06:31.082Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -674,7 +676,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "hotel.js",
               "DocumentMoniker": "C:\\Net\\PrograWeb2Proyecto\\ProyectoWeb2\\wwwroot\\js\\hotel.js",
               "RelativeDocumentMoniker": "ProyectoWeb2\\wwwroot\\js\\hotel.js",
@@ -686,13 +688,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Net\\PrograWeb2Proyecto\\ProyectoWeb2\\Program.cs",
               "RelativeDocumentMoniker": "ProyectoWeb2\\Program.cs",
               "ToolTip": "C:\\Net\\PrograWeb2Proyecto\\ProyectoWeb2\\Program.cs",
               "RelativeToolTip": "ProyectoWeb2\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAJcAAAAAAAAAAAAAABAAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-19T06:43:24.073Z",
               "EditorCaption": ""
